@@ -1,4 +1,4 @@
-# Deleted YouTube Video Finder
+# Deleted Video Finder for YouTube™
 
 A simple chrome extension that tries to find old versions of deleted or private YouTube videos.
 
