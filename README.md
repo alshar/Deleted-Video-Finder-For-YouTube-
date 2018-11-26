@@ -8,6 +8,10 @@ A simple chrome extension that tries to find old versions of deleted or private 
 * If a Wayback link exists, two new tabs will open. One with the video loaded into the Wayback machine, another with a
 google search of that video's url. 
 
+## Future Features
+* Settings page that lets you choose between a new wayback tab, new google search tab, or both
+* Popup menu that allows you to enter a youtube link instead of having to right click it
+
 ## Built With
 
 * [Wayback Machine API](https://archive.org/help/wayback_api.php) - 
