@@ -28,6 +28,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Inspiration - [Reddit Thread](https://www.reddit.com/r/starterpacks/comments/9yi9lq/youtube_favorites_playlist/ea1znja/)
+* Inspiration - Getting rid of that gut-wrenching feeling of losing all your favorite videos
 
 YouTube™ is a trademark of Google Inc. Use of this trademark is subject to Google Permissions.
