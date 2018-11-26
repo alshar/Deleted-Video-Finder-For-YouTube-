@@ -1,0 +1,46 @@
+{
+  "manifest_version": 2,
+  "name": "Deleted Youtube Video Finder",
+  "version": "0.1",
+
+  "description": "Using Wayback Machine and Google, this will try to find deleted/private YouTube Videos",
+
+
+  "icons": {  "16": "DYTVF_icon_128.png",
+              "48": "DYTVF_icon_128.png",
+              "128": "DYTVF_icon_128.png" },
+
+  "author": "Al Sharairi",
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+
+      "js": ["jquery-3.3.1.js", "content.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "DYTVF_icon_128.png",
+    "default_title": "Deleted Youtube Video Finder"
+
+
+  },
+
+  "background": {
+    "scripts": ["background.js", "contextMenu.js", "jquery-3.3.1.js"]
+  },
+
+  "permissions": [
+    "contextMenus",
+    "https://*.youtube.com/*",
+    "https://*.archive.org/*",
+    "tabs"
+  ],
+
+  "short_name": "DYTVF"
+
+
+
+}
+
