@@ -1,5 +1,5 @@
 var contextMenuItem = {
-    "id": "Deleted YouTube Video Finder Context",
+    "id": "DVFYT context",
     "title": "Find Video",
     "contexts": ["link"],
 
@@ -10,7 +10,7 @@ chrome.contextMenus.create(contextMenuItem);
 
 
 chrome.contextMenus.onClicked.addListener(function(clickData) {
-    if (clickData.menuItemId === "Deleted YouTube Video Finder Context"
+    if (clickData.menuItemId === "DVFYT context"
         && clickData.linkUrl.includes("youtube.com/watch")) {
 
         var wayBackURL;
@@ -33,4 +33,6 @@ chrome.contextMenus.onClicked.addListener(function(clickData) {
 
     }
 });
+
+//TODO read google branding guidelines and adjust accordingly
 
