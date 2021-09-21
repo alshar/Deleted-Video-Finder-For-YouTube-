@@ -1,8 +1,8 @@
+# This extension has been delisted from the chrome web store and will no longer be maintained
+
 # Deleted Video Finder for YouTube™
 
 A simple chrome extension that tries to find old versions of deleted or private YouTube videos.
-
-I wrote this a long time ago before I had any real experience programming. The code isn't great, and I'll be rewritting it soon.
 
 ## How It Works
 * When right clicking a video link on youtube, a new context item will appear on the context menu called "Find Video" 
